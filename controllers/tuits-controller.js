@@ -9,15 +9,13 @@ const tuitsController = (app) => {
 
 const createTuit = async (req, res) => {
     const newTuit = req.body;
-    newTuit.stats = {};
-    newTuit.stats.likes = 0;
+    newTuit.likes = 0;
     newTuit.dislikes = 0;
     newTuit['avatar-image'] = "https://cdn.mos.cms.futurecdn.net/2AFSP26rydXuKTuP7qjwbE.jpg";
-    newTuit.postedBy = {};
-    newTuit.postedBy.username = "WebDev";
+    newTuit.username = "WebDev";
     newTuit.time = "2h";
-    newTuit.stats.comments = 0;
-    newTuit.stats.retuits = 0;
+    newTuit.comments = 0;
+    newTuit.retuits = 0;
     const insertedTuit = await tuitsDao.createTuit(newTuit);
     res.json(insertedTuit);
    }

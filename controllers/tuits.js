@@ -17,9 +17,7 @@ export default [
   {
     "_id": "123",
     "topic": "Web Development",
-    "postedBy": {
-      "username": "ReactJS"
-    },
+    "username": "ReactJS",
     "liked": true,
     "verified": false,
     "handle": "ReactJS",
@@ -31,18 +29,14 @@ export default [
     },
     "logo-image": "../../../images/react-blue.png",
     "avatar-image": "../../../images/react-blue.png",
-    "stats": {
-      "comments": 123,
-      "retuits": 234,
-      "likes": 345
-    }
+    "comments": 123,
+    "retuits": 234,
+    "likes": 345,
   },
   {
     "_id": "567",
     "topic": "Space",
-    "postedBy": {
-      "username": "SpaceX"
-    },
+    "username": "SpaceX",
     "liked": false,
     "verified": false,
     "handle": "spacex",
@@ -55,18 +49,14 @@ export default [
     "logo-image": "../../../images/node.jpg",
     "avatar-image": "../../../images/node.jpg",
     "tuits": "120K",
-    "stats": {
-      "comments": 123,
-      "retuits": 234,
-      "likes": 345
-    }
+    "comments": 123,
+    "retuits": 234,
+    "likes": 345,
   },
   {
     "_id": "234",
     "topic": "Space",
-    "postedBy": {
-      "username": "Scott Manley"
-    },
+    "username": "Scott Manley",
     "liked": true,
     "verified": true,
     "handle": "DJSnM",
@@ -77,18 +67,14 @@ export default [
     "logo-image": "../../../images/js.png",
     "avatar-image": "../../../images/js.png",
     "tuits": "123K",
-    "stats": {
-      "comments": 123,
-      "retuits": 234,
-      "likes": 345
-    }
+    "comments": 123,
+    "retuits": 234,
+    "likes": 345
   },
   {
     "_id": "345",
     "topic": "Web Development",
-    "postedBy": {
-      "username": "jQuery"
-    },
+    "username": "jQuery",
     "liked": false,
     "verified": false,
     "handle": "jQuery",
@@ -98,18 +84,14 @@ export default [
     "logo-image": "../../../images/jquery.png",
     "avatar-image": "../../../images/jquery.png",
     "tuits": "122K",
-    "stats": {
-      "comments": 123,
-      "retuits": 234,
-      "likes": 345
-    }
+    "comments": 123,
+    "retuits": 234,
+    "likes": 345,
   },
   {
     "_id": "456",
     "topic": "Web Development",
-    "postedBy": {
-      "username": "NodeJS"
-    },
+    "username": "NodeJS",
     "liked": true,
     "verified": true,
     "handle": "NodeJS",
@@ -119,11 +101,9 @@ export default [
     "logo-image": "../../../images/node.jpg",
     "avatar-image": "../../../images/node.jpg",
     "tuits": "120K",
-    "stats": {
-      "comments": 123,
-      "retuits": 234,
-      "likes": 345
-    }
+    "comments": 123,
+    "retuits": 234,
+    "likes": 345,
   }
 ]
   
