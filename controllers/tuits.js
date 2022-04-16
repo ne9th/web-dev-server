@@ -35,7 +35,8 @@ export default [
       "comments": 123,
       "retuits": 234,
       "likes": 345
-    }
+    },
+    "dislikes": 0,
   },
   {
     "_id": "567",
@@ -59,7 +60,8 @@ export default [
       "comments": 123,
       "retuits": 234,
       "likes": 345
-    }
+    },
+    "dislikes": 0,
   },
   {
     "_id": "234",
@@ -81,7 +83,8 @@ export default [
       "comments": 123,
       "retuits": 234,
       "likes": 345
-    }
+    },
+    "dislikes": 0,
   },
   {
     "_id": "345",
@@ -102,7 +105,8 @@ export default [
       "comments": 123,
       "retuits": 234,
       "likes": 345
-    }
+    },
+    "dislikes": 0,
   },
   {
     "_id": "456",
@@ -123,7 +127,8 @@ export default [
       "comments": 123,
       "retuits": 234,
       "likes": 345
-    }
+    },
+    "dislikes": 0,
   }
 ]
   

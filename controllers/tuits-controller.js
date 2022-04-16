@@ -11,14 +11,16 @@ const tuitsController = (app) => {
 const createTuit = (req, res) => {
     const newTuit = req.body;
     newTuit._id = (new Date()).getTime()+'';
-    newTuit.likes = 0;
+    newTuit.stats = {};
+    newTuit.stats.likes = 0;
     newTuit.dislikes = 0;
     newTuit['avatar-image'] = "https://cdn.mos.cms.futurecdn.net/2AFSP26rydXuKTuP7qjwbE.jpg";
+    newTuit.postedBy = {};
     newTuit.postedBy.username = "WebDev";
-    newTuit.time = "2hr";
+    newTuit.time = "2h";
     newTuit.stats.comments = 0;
     newTuit.stats.retuits = 0;
-    tuits.push(newTuit);
+    tuits = [newTuit, ...tuits];
     res.json(newTuit);
    }
    
