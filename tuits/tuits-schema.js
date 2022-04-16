@@ -5,7 +5,7 @@ const schema = mongoose.Schema({
   dislikes: Number,
   "avatar-image": String,
   username: String,
-  time: Number,
+  time: String,
   retuits: Number,
   comments: Number,
   liked: Boolean,

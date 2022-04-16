@@ -13,7 +13,7 @@ const createTuit = async (req, res) => {
     newTuit.dislikes = 0;
     newTuit['avatar-image'] = "https://cdn.mos.cms.futurecdn.net/2AFSP26rydXuKTuP7qjwbE.jpg";
     newTuit.username = "WebDev";
-    newTuit.time = "2h";
+    newTuit.time = "Just Now";
     newTuit.comments = 0;
     newTuit.retuits = 0;
     const insertedTuit = await tuitsDao.createTuit(newTuit);
